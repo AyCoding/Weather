@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/sun-light.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Température :</h1>
+            <span>Joigny-Sur-Meuse</span>
+        </div>
+
+        <div class="display">
+            <p id="weather-down">NaN°C</p>
+            <p id="weather-temp">NaN°C</p>
+            <p id="weather-up">NaN°C</p>
+        </div>
+        <div class="chart">
+            <span>Graphique météo à <strong>Joigny-Sur-Meuse</strong><input type="date" name="" id=""></span>
+            <canvas id="graph"></canvas>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.1/chart.js"
+        integrity="sha512-9fQaGKKJO2zXOYXpPTEEyzIdx7r3ou0nZgvxS9VICh70AGvdangg7lUVonofpBYrNWd6h2e/FQHoWSCRZkwOUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./src/js/app.js"></script>
+    <script type="module" src="./src/js/chart.js"></script>
+</body>
+</html>

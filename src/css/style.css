@@ -1,0 +1,61 @@
+@import url('https://unpkg.com/reset-css@5.0.1/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    /* background-color: rgba(0, 0, 0, .05); */
+    background-color: #094067;
+    color: #d8eefe;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.display  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #FFF;
+    color: #333;
+    padding: 15px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.chart {
+    height: auto;
+    margin-top: 20px;
+    background-color: #FFF;
+    color: #333;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.chart span {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#weather-down {
+    color: red;
+}
+
+#weather-up {
+    color:blue;
+}
+
+strong {
+    font-weight: bold;
+}
